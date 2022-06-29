@@ -1,0 +1,67 @@
+body{
+    background-color: #000;
+}
+
+ul{
+    list-style-type: none;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+nav li a{
+    text-decoration: none;
+    color: #000;
+    background-color: #e8e1f3;
+    padding: 10px 15px;
+    display: block;
+    border-radius: 10px;
+}
+
+
+.menuprincipal{
+    float: left;
+}
+
+
+nav{
+    width: 490px;
+    height: 60px;
+    margin: auto;
+    text-decoration: none;
+
+}
+
+nav li a:hover{
+    background-color: #b7b7b7;
+}
+
+nav li ul{
+    position: absolute;
+    min-width: 140px;
+    display: none; 
+    text-decoration: none;
+
+}
+
+nav li:hover > ul{
+    display: block;
+    text-decoration: none;
+
+}
+
+
+fieldset{
+    background-color: #000;
+    color: #ffffff;
+    width: 300px;
+    font-size: 25px;
+    margin: 10px;
+    padding: 10px;
+    font-family: Agency FB;
+    text-decoration: none;
+
+}
